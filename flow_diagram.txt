@@ -1,0 +1,30 @@
+START
+│
+Ask for User Name & Date of Birth
+│
+Start Wellbeing Conversation
+│
+Ask Questions About:
+• Sleep patterns
+• Stress levels
+• Happiness mood
+• Energy levels
+│
+Continue for MAX 10 messages
+│
+Auto-end Conversation
+│
+Analyze Sentiment → Positive/Negative
+│
+Save to MongoDB:
+• User details
+• Chat history
+• Timestamps
+• Final sentiment
+│
+Show Results to User
+│
+END
+
+TECHNOLOGY FLOW:
+User → Streamlit → Gemini AI → MongoDB
