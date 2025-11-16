@@ -18,24 +18,28 @@ Prerequisites
 
 Installation
 
-1. Create virtual environment**
+1. Create virtual environment
    ```bash
    python -m venv chatbot-env
    source chatbot-env/bin/activate  # Mac
    chatbot-env\Scripts\activate    # Windows
 
 2. Install dependencies
+   ```bash
     pip install -r requirements.txt
 
-3. Setup environment variables
+4. Setup environment variables
+   ```bash
     GEMINI_API_KEY=AIzaSyCo_BZiGazsangokwMvkoZdjl2wLueWew
     MONGODB_URI=mongodb+srv://wellbeinguser:gavjod-xamhoq-3reBte@wellbeing-cluster.dpudtqo.mongodb.net/?appName=wellbeing-cluster
 
-4. Run application
+6. Run application
+   ```bash
     streamlit run app.py
 
 
 PROJECT STRUCTURE 
+```bash
 
 wellbeing-chatbot/
 ├── app.py 
